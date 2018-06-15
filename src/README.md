@@ -1,24 +1,35 @@
-### Diagrama de Flujo
+# Cifrado César
+
+Este programa se basa en la fórmula de encripción llamada Cifrado Cesar (*cont. Razonamiento*).
+El usuario podrá escribir un mensaje, un número a elección y mediante botones, cifrar y descifrar mensajes.
+El número que elija el usuario será la llave o contraseña para quien desee descifrar el mensaje pueda hacerlo, de lo contrario, no podrá descubrir el mensaje original.
+
+
+## Diagrama de Flujo
 
 1. Investigar Cifrado César
 2. Creación de estructura HTML
-3. Crear tres campos de texto: Palabra a cifrar, offset, palabra cifrada.
-4. Crear app.js
-5. Dentro de app.js, crear dos funciones: `` cipher.encode(offset, string): offset `` y ``cipher.decode(offset, string): offset``
-6. Demostrar funcionalidad.
-7. Reconocer tipo de usuario, de servicio y cómo el programa afecta en el usuario.
-8. Analizar datos y aplicar el diseño correspondiente.
-9. Crear prototípo funcional
-10. Someter el proyecto a code y peer review.
-11. Volver a cualquier punto si es necesario.
-11. Entrega final.
+3. Crear dos campos de texto: Palabra a cifrar y offset
+4. Crear cipher.js
+5. Dentro de cipher.js, crear dos funciones: `` cipher.encode(offset, string): offset `` y ``cipher.decode(offset, string): offset``
+6. Guardamos estas funciones dentro de un objeto llamado window.cipher.
+7. Crear index.js con nuestro DOM y llamado de funciones.
+8. Demostrar funcionalidad.
+9. Reconocer tipo de usuario, de servicio y cómo el programa afecta en el usuario.
+10. Analizar datos y aplicar el diseño correspondiente.
+11. Crear prototípo funcional
+12. Someter el proyecto a code y peer review.
+13. Volver a cualquier punto si es necesario.
+14. Correr tests.
+15. Entrega final.
 
 ## Definition Of Done
-* Mediante texto fijo:
+* Mediante entrada de texto del usuario.
     1. Encriptar, usando  formula, ``charCodeAt()`` y ``String.fromCharCode``
+* Usabilidad clara e intuitiva
 
 
-### Razonamiento
+## Razonamiento
 
 Primero, obtener funcionalidad de encripción. Para esto, utilizamos una palabra o letra fija facilitando las pruebas iniciales del programa.
 Luego, creamos una función que tome la posición de cada una de las letras; esto se consigue mediante un for, osease un bucle. Cada que una letra pase por este bucle, se buscará su código ASCII mediante ``charCodeAt()``. Ya teniendo el còdigo, podemos aplicar la fórmula de Cifrado Cesar 
@@ -47,3 +58,5 @@ En cuanto a colores, elegimos una gama de colores pasteles, con pequeños detall
 Al ser sorpresa, no queremos que la página nos revele el misterio, pero queremos que tenga el sentimiento representado.
 
 En resumen, nuestra aplicación va dirigida a adultos jóvenes, hispanohablantes con la necesidad de mantener mensajes o conversaciones privadas.
+
+
