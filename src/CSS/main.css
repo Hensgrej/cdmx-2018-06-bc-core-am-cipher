@@ -6,9 +6,9 @@ body{
 .backg {
     margin: auto;
     position: absolute;
-    left: 33%;
-    width: 350px;
-    height: 400px;
+    left: 37%;
+    width: 300px;
+    height: 350px;
     top: 20%;
     opacity: 0.9;
     background-color: #f7f8f9;
@@ -21,12 +21,12 @@ body{
 }
 
 .textArea {
-    top: 5%;
+    top: 10%;
     margin:auto;
     width: 250px;
     height: 100px;
     position: absolute;
-    left: 15%;
+    left: 11%;
     
 }
 
@@ -35,8 +35,8 @@ body{
     width: 100px;
     height: 35px;
     position: absolute;
-    top: 35%;
-    left: 15%;
+    top: 44%;
+    left: 11%;
 }
 
 .offsetTitle {
@@ -57,7 +57,7 @@ body{
     margin: auto;
     position: relative;
     top: 3%;
-    left: 4px;
+    left: 8px;
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 1px;
 }
@@ -81,7 +81,7 @@ h2 {
 .cifrar-btn {
     position: relative;
     margin: auto;
-    left: 25%;
+    left: 20%;
     top: 30%;
     width: 85px;
     height: 30px;
@@ -95,7 +95,7 @@ h2 {
 .descifrar-btn {
     position: relative;
     margin: auto;
-    left: 30%;
+    left: 25%;
     width: 85px;
     height: 30px;
     font-family: 'Cardo', serif;
@@ -125,4 +125,24 @@ h2 {
     left: 102%;
     font-family: 'Abril Fatface', cursive;
     color: #B4E9F5;
+}
+
+.arreglo {
+    background-color: white;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    top: 90px;
+}
+
+.subtitle {
+    z-index: 1;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+    position: relative;
+    width: 180px;
+    height: 15px;
+    top: 113px;
+    left: 17px;
 }
