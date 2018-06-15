@@ -9,13 +9,14 @@ btn.addEventListener("click", () => {
     let textValue = text.value;
     let userKeyValue = (parseInt(userKey.value));
     resultEncrypt.toString;
-    encode(textValue,userKeyValue); 
+    cipher.encode(textValue,userKeyValue); 
     printResult.innerHTML = resultEncrypt.join("");
 } );   
 
 btn2.addEventListener("click", () => {
     let userKeyValue = parseInt(userKey.value);
     resultEncrypt.toString;
-    decode(resultEncrypt,userKeyValue); 
+    cipher.decode(resultEncrypt,userKeyValue); 
     printResult.innerHTML = resultDecrypt.join("");
 } );
+

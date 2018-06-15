@@ -1,4 +1,5 @@
-const encode = (text, key) => {
+window.cipher = {
+encode : (text, key) => {
     let asciiToLetter;
     let i = 0;
     for (i; i < text.length; i++) {
@@ -22,8 +23,9 @@ const encode = (text, key) => {
         resultEncrypt[iTwo] = asciiToLetter; 
     }
     return resultEncrypt;
-}
-const decode = (resultEncrypt, key) => {
+},
+
+decode : (resultEncrypt, key) => { 
     let iThree = 0;
     for (iThree; iThree < resultEncrypt.length; iThree++) {
         let asciiDos = resultEncrypt[iThree].charCodeAt();
@@ -44,5 +46,5 @@ const decode = (resultEncrypt, key) => {
                 resultDecrypt[iFour] = asciiToLetterTwo;
             }
         return resultDecrypt;
-        }
-    
+}
+}
