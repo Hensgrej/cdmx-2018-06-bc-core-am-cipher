@@ -1,23 +1,16 @@
-
-body{
+body {
     background: linear-gradient(45deg, #B4E9F5, #D5F9BD);
 }
 
 .backg {
     margin: auto;
     position: absolute;
-    left: 37%;
+    left: 38%;
     width: 300px;
     height: 350px;
     top: 20%;
     opacity: 0.9;
-    background-color: #f7f8f9;
-}
-.inputs {
-    margin:auto;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+    background-color: white;
 }
 
 .textArea {
@@ -27,122 +20,116 @@ body{
     height: 100px;
     position: absolute;
     left: 11%;
-    
+    font-family: 'Slabo 27px', serif;
 }
 
 .offset{
     margin:auto;
-    width: 100px;
+    width: 130px;
     height: 35px;
     position: absolute;
     top: 44%;
     left: 11%;
-}
-
-.offsetTitle {
-    margin:auto;
-    position: relative;
-    top: 10%;
-    right: 18%;
-}
-
-.submitButton {
-    text-align: center;
-    position: relative;
-    left: -50%;
-    top: 65%;
-    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
 }
 .result {
-    margin: auto;
-    position: relative;
-    top: 3%;
-    left: 8px;
-    font-family: 'Abril Fatface', cursive;
-    letter-spacing: 1px;
+    margin: 0px;
+    position: absolute;
+    top: 65%;
+    left: 34.5%;
+    font-family: 'Quicksand', serif;
+    letter-spacing: 3px;
+    text-decoration: underline #B4E9F5;
 }
-p {
-    margin:auto;
-    font-size: 20px;
+#resultado {
     text-align: center;
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    top: 68%;
+    left: -90%;
+    font-family: 'Quicksand';
+    letter-spacing: 1px;
+    margin: 0px;
 }
-
 h2 {
     position: absolute;
-    left: 41%;
+    left: 43%;
     font-size: 70px;
     letter-spacing: -2px;
     margin: -0.7%;
-    z-index: 1;
-    top: 10.5%;
+    z-index: 2;
+    top: 9.5%;
     font-family: 'Abril Fatface', cursive;
 }
 
 .cifrar-btn {
-    position: relative;
+    position: absolute;
     margin: auto;
     left: 20%;
-    top: 30%;
+    top: 60%;
     width: 85px;
     height: 30px;
     border: none;
     border-radius: 8px;
     font-size: 15px;
-    font-family: 'Cardo', serif;
+    font-family: 'Quicksand', serif;
     background-color: #B4E9F5;
+    letter-spacing: 1.5px;
 } 
 
 .descifrar-btn {
-    position: relative;
+    position: absolute;
     margin: auto;
-    left: 25%;
+    top: 60%;
+    left: 55%;
     width: 85px;
     height: 30px;
-    font-family: 'Cardo', serif;
+    font-family: 'Quicksand', serif;
     border: none;
     border-radius: 8px;
     font-size: 15px;
     background-color: #B4E9F5;
+    letter-spacing: 1.5px;
 }
 .descifrar-btn:hover {
     text-transform: uppercase;
     letter-spacing: -1px;
     text-align: center;
     box-shadow: 3px 2px 10px #B4E9F5;
-    font-size: 13px;
 }
 .cifrar-btn:hover {
     text-transform: uppercase;
     letter-spacing: -1px;
     text-align: center;
     box-shadow: 3px 2px 10px #B4E9F5;
-    font-size: 13px;
 }
 .coma {
     position: absolute;
     font-size: 150px;
-    top: -50%;
+    top: -200%;
     left: 102%;
     font-family: 'Abril Fatface', cursive;
     color: #B4E9F5;
-}
-
-.arreglo {
-    background-color: white;
-    position: relative;
-    width: 150px;
-    height: 30px;
-    top: 90px;
 }
 
 .subtitle {
     z-index: 1;
     font-size: 10px;
     color: black;
-    background-color: white;
-    position: relative;
+    position: absolute;
     width: 180px;
     height: 15px;
-    top: 113px;
-    left: 17px;
+    top: 135px;
+    left: 42%;
+}
+footer {
+    position: absolute;
+    top: 97.5%;
+    left: 34%;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+    font-family: 'Quicksand';
 }

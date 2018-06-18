@@ -6,32 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Cardo:700|Roboto+Mono|Abril+Fatface" rel="stylesheet">
-    <title>Cifrado César</title>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Song+Myung|Quicksand|Abril+Fatface" rel="stylesheet">
+    <title>Cipher</title>
 </head>
 <body>
     <div class= "bg">
         <header>
             <h2>cipher <p class="coma">;</p></h2>
-            <p class= "arreglo"></p>
             <p class= "subtitle">Encripta tus mensajes; protege tu privacidad</p>
         </header>
-
         <section class="backg">
             <div class="inputs">
                     <textarea class = "textArea" id="textArea" placeholder = "Tu texto aquí"></textarea>
                     <input type="number" class ="offset" id="userOffset" placeholder="Número secreto">
-                <p id = "userText"></p>
+                <p id="userText"></p>
             </div>
                 <form id="forma">
-                    <button type = "button" class= "cifrar-btn" id="submitButton">Cifrar</button>
-                    <button type = "button" class = "descifrar-btn" id="decipherButton">Descifrar</button>
+                    <button type = "button" class= "cifrar-btn" id="submitButton">cifrar</button>
+                    <button type = "button" class = "descifrar-btn" id="decipherButton">descifrar</button>
                 </form>
             <div class="result">
                 <p>Resultado</p>
-                <p id="resultado" ></p>
+                <div id="resultado"></div>
             </div>
         </section>
+        <footer>Aplicación de cifrado y descifrado creada por Florencia Silva Olivera para <a href="http://www.laboratoria.la/">Laboratoria</a></footer>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
