@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +10,36 @@
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Song+Myung|Quicksand|Abril+Fatface" rel="stylesheet">
     <title>Cipher</title>
 </head>
+
 <body>
-    <div class= "bg">
-        <header>
-            <h2>cipher <p class="coma">;</p></h2>
-            <p class= "subtitle">Encripta tus mensajes; protege tu privacidad</p>
-        </header>
-        <section class="backg">
-            <div class="inputs">
-                    <textarea class = "textArea" id="textArea" placeholder = "Tu texto aquí"></textarea>
-                    <input type="number" class ="offset" id="userOffset" placeholder="Número secreto">
-                <p id="userText"></p>
-            </div>
-                <form id="forma">
-                    <button type = "button" class= "cifrar-btn" id="submitButton">cifrar</button>
-                    <button type = "button" class = "descifrar-btn" id="decipherButton">descifrar</button>
-                </form>
-            <div class="result">
-                <p>Resultado</p>
-                <div id="resultado"></div>
-            </div>
-        </section>
-        <footer>Aplicación de cifrado y descifrado creada por Florencia Silva Olivera para <a href="http://www.laboratoria.la/">Laboratoria</a></footer>
+    <div class="root">
+        <div class="bg">
+            <header>
+                <h2>cipher
+                    <p class="coma">;</p>
+                </h2>
+                <p class="subtitle">Encripta tus mensajes; protege tu privacidad</p>
+            </header>
+            <section class="backg">
+                <div class="inputs">
+                    <textarea class="textArea" id="textArea" placeholder="Tu texto aquí"></textarea>
+                    <input type="number" class="offset" id="userOffset" placeholder="Número secreto">
+                    <p id="userText"></p>
+                </div>
+                <button type="button" class="cifrar-btn" id="submitButton">cifrar</button>
+                <button type="button" class="descifrar-btn" id="decipherButton">descifrar</button>
+                <div class="result">
+                    <p>Resultado</p>
+                    <div id="resultado"></div>
+                </div>
+            </section>
+            <footer>Aplicación de cifrado y descifrado creada por Florencia Silva Olivera para
+                <a href="http://www.laboratoria.la/">Laboratoria</a>
+            </footer>
+        </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>
